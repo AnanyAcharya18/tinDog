@@ -1,0 +1,124 @@
+.gradient-background {
+  background: linear-gradient(300deg, #c3425b, #e0adc7, #b3daed);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-image {
+  opacity: 0; /* Start with the image hidden */
+  animation: fade-in 4s forwards; /* Animation to fade in the image */
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; /* Start with opacity 0 (fully transparent) */
+  }
+  100% {
+    opacity: 1; /* End with opacity 1 (fully visible) */
+  }
+}
+.navbar-nav {
+  margin-left: auto; 
+  /* Moves the nav items to the right */
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.nav-link {
+  font-weight: bold; /* Makes the nav links bold */
+}
+.ff1{
+  color: white;
+}
+.Pebbles
+{
+  color: white;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5em; /* Makes the navbar brand text larger */
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  color: white;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  color: white;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background: linear-gradient(300deg, #c3425b, #e0adc7, #b3daed);
+}
+.seconddog{
+  height: 100px;
+  border-radius: 50%;
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: black;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  color: #e0adc7;
+}
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#footer {
+  color: white;
+}
+
+#footer .nav-link {
+  color: white !important; /* Ensure the links are white */
+}
+
+#footer h5 {
+  color: white;
+}
+
+#footer ul {
+  list-style-type: none; /* Optional: remove bullet points */
+  padding-left: 0;
+}
+
+#footer ul li {
+  color: white; /* Ensure list item text is white */
+}
+
+#footer ul li a {
+  color: white !important; /* Ensure the links within list items are white */
+}
+
+#footer .text-body-secondary {
+  color: white !important;
+}
+
+.hh1{
+  color: black;
+}
